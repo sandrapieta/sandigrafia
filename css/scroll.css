@@ -1,0 +1,236 @@
+body {
+		font-family: Courier;
+		background-image: url(/images/tło.jpg);
+		}
+.transbox {
+			background-color: #AA0C2D;
+			opacity: 0.95;}
+#lstSkladnikow li {
+					padding: 4px;
+						}
+ 
+
+#div5 { 
+				padding: 6px;
+				font-size: 90%;
+
+				}
+				
+
+.lstS { 	
+				display: block;
+				top: 0;
+				width: 50%;
+				float:left;
+				font-size: 90%;
+
+				}
+
+@media (max-width: 480px) {
+    .lstS {	
+				display: block;
+				width: 100%;
+				height: 80px;
+				font-size: 90%;
+				
+			
+			 }	
+
+	textarea { 
+				font-size: 70%;
+						}
+	.btnWidokDodaj {
+				position: absolute;
+				bottom: 0;
+				clear: both;
+				width: 100%;}
+								}
+				
+#tytul {
+
+		background-color: beige;
+		margin: 1% 20%;
+		text-align: center;
+		color: #AA0C2D;
+		letter-spacing: 3px;
+		font-family: Monaco;
+		font-style: italic;
+		font-size: 320%;
+		box-shadow: .05em .05em .8em black;
+		text-shadow: .02em .02em black;
+		}
+		
+.marQuee{	
+		
+
+		padding: 10px;
+		text-align: center;
+		color: linen;
+		font-family: Verdana;
+		font-style: italic; 
+		letter-spacing: 2px;
+		font-size: 150%;
+		text-shadow: .05em .05em .4em black;
+		}
+		
+.col1 {
+			background-color: linen;
+			height: 520px;
+			padding: 2px 0px;
+			margin: 15px;
+			border-radius: 10px;
+			box-shadow: .05em .05em .4em black;
+			border: 2px solid white;
+			overflow-y: auto;
+			
+			}
+#btnPDFedytuj {
+				position: absolute;
+				bottom: 0;
+				right: 0:
+				margin: 20px;
+				
+				}
+.btnJak {
+				text-align: center;
+				font-size: 120%;
+				width: 100%;
+				border-radius: 10px;
+				height: 60px;
+				color: firebrick;
+				background-color: beige;
+				text-shadow: .02em .02em black;
+				font-family: Monaco;
+				letter-spacing: 1px;
+				}	
+button#btn_jak:hover {
+				background-color: firebrick;
+				color: beige;
+				border: 2px solid beige;
+
+				}
+.btnWidokDodaj { 
+				position: absolute;
+				bottom: 0;
+				right: 0;
+				width: 100px;
+				border-radius: 10px ;
+				height: 60px;
+				margin: 10px;
+				color: beige;
+				background-color: firebrick;
+				border: 1px solid white;
+				}
+.btnEdycja, .btnZapis {
+			width: 120px;
+			border-radius: 8px;
+			height: 30px;
+			color: beige;
+			float: right;
+			border: 1px solid white;
+			background-color: firebrick;
+			margin: 15px 12px;
+			}
+				
+.btnWidok {
+			width: 100px;
+			border-radius: 8px;
+			height: 30px;
+			color: beige;
+			border: 1px solid white;
+			background-color: firebrick;
+			}
+.btnUsun {		height: 25px;
+				float: right;
+				border-radius: 3px;
+				background-color: beige;
+			}
+input:focus, textarea:focus {background-color: #E3EDD9;
+							}
+button:hover {
+				background-color:beige;
+				color: firebrick;
+				border: 2px solid firebrick;
+				}
+#pozycja {
+			height: 450px;
+		}
+.glyphicon-remove {	border-radius: 10px;
+					background-color: beige;
+					color: firebrick;
+					
+					}
+			
+.colHarmonijka {
+				background: url(/images/sztucce.svg) left repeat-y,
+							url(/images/sztucce.svg) right repeat-y;
+				position: absolute;
+				top: 100px;
+				left: 300px;
+				background-color: beige;
+				margin: 0 auto;
+				width: 1300px;
+				height: 550px;
+				z-index: 100;	
+				border: 3px ridge darkolivegreen;
+					}
+.colHarmonijka p {
+				
+				font-size: 160%;
+				font-family: Monaco;
+				text-align: justify;
+				font-style: italic;
+				width: 600px;
+				float: left;
+				color: firebrick;
+				padding: 25px 20px 20px 70px;}
+				
+#potrawaimg {
+				float:right;
+				margin: 20px 30px;
+				padding: 20px 10px;
+				border:2px double firebrick;
+				box-shadow: .05em .05em .4em black;
+				}	
+				
+h1 {
+	padding: 10px;
+	text-align: center;
+
+	color: darkolivegreen;
+			}
+.label {
+		background-color: beige;
+		color: firebrick;
+		}
+		
+
+		
+.alert {
+	text-align: center;
+    background-color: #F5F5DC;
+	border: 2px solid #AA0C2D;
+    color: darkolivegreen;
+    opacity: 1;
+    transition: opacity 0.6s;
+    margin-bottom: 10px;
+	margin: 0 auto;
+	width: 600px;
+	font-size: 130%;
+}
+
+.alert.success {background-color: #F5F5DC;}
+
+.wybor {	
+			color: firebrick;
+			border: 3px solid firebrick;
+			background-color: beige;
+		}
+
+::-webkit-scrollbar { width: 13px; height: 0px; background: linen; border-radius: 10px;}
+::-webkit-scrollbar-thumb:vertical {background: #AA0C2D; border: 2px solid #AA0C2D; border-radius:10px;}
+
+.pad li {
+		padding: 4px;
+		font-size: 100%;
+		}
